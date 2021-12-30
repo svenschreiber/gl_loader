@@ -10,7 +10,7 @@ Include `opengl.h` and `win32_opengl.c` at the start of your project or wherever
 #include "gl_loader/win32_opengl.c"
 ```
 
-If you need a functions that are not included by default, you can add them at the top of the `opengl.h` file by using the following format:
+If you need functions that are not included by default, you can add them at the top of the `opengl.h` file by using the following format:
 ```
 GLProc(glTexImage3D, GLTEXIMAGE3D) \
 GLProc(glGenerateMipmap, GLGENERATEMIPMAP) \
